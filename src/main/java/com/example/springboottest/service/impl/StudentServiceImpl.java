@@ -47,7 +47,7 @@ public class StudentServiceImpl implements StudentService {
         return student;
     }
 
-    @Transactional(rollbackFor = Throwable.class, propagation = Propagation.SUPPORTS)
+    @Transactional(rollbackFor = Throwable.class, propagation = Propagation.REQUIRES_NEW)
     @Override
     public void A(Integer id) throws Exception {
         insert(new Student(0, id, id));
