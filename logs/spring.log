@@ -1,0 +1,654 @@
+2021-08-07 16:27:59.098  INFO 3151 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3151 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 16:27:59.131  INFO 3151 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 16:27:59.176  INFO 3151 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-07 16:27:59.176  INFO 3151 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-07 16:28:00.271  INFO 3151 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 16:28:00.287  INFO 3151 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 16:28:00.287  INFO 3151 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 16:28:00.336  INFO 3151 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-07 16:28:00.337  INFO 3151 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1160 ms
+2021-08-07 16:28:00.937  INFO 3151 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 16:28:00.975  INFO 3151 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 16:28:00.984  INFO 3151 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 2.413 seconds (JVM running for 3.825)
+2021-08-07 16:33:31.306  INFO 3185 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3185 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 16:33:31.308  INFO 3185 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 16:33:31.363  INFO 3185 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-07 16:33:31.363  INFO 3185 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-07 16:33:32.165  INFO 3185 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 16:33:32.172  INFO 3185 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 16:33:32.172  INFO 3185 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 16:33:32.224  INFO 3185 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-07 16:33:32.224  INFO 3185 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 860 ms
+2021-08-07 16:33:32.888  INFO 3185 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 16:33:32.926  INFO 3185 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 16:33:32.936  INFO 3185 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 2.085 seconds (JVM running for 2.819)
+2021-08-07 16:34:04.763  INFO 3185 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 16:34:04.764  INFO 3185 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-07 16:34:04.765  INFO 3185 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-07 16:34:04.797  INFO 3185 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-07 16:34:04.939  INFO 3185 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-07 16:34:05.008  INFO 3185 --- [http-nio-8080-exec-1] c.e.s.controller.StudentController       : Controller解决异常
+2021-08-07 16:34:05.008  INFO 3185 --- [http-nio-8080-exec-1] c.e.s.controller.StudentController       : Controller正常
+2021-08-07 16:34:20.634  INFO 3185 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-07 16:34:20.641  INFO 3185 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-07 16:34:26.571  INFO 3196 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3196 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 16:34:26.573  INFO 3196 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 16:34:26.632  INFO 3196 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-07 16:34:26.632  INFO 3196 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-07 16:34:27.422  INFO 3196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 16:34:27.428  INFO 3196 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 16:34:27.428  INFO 3196 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 16:34:27.468  INFO 3196 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-07 16:34:27.468  INFO 3196 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 836 ms
+2021-08-07 16:34:28.077  INFO 3196 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 16:34:28.115  INFO 3196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 16:34:28.125  INFO 3196 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 1.883 seconds (JVM running for 2.618)
+2021-08-07 16:34:52.513  INFO 3196 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 16:34:52.514  INFO 3196 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-07 16:34:52.515  INFO 3196 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-07 16:34:52.558  INFO 3196 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-07 16:34:52.754  INFO 3196 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-07 16:55:32.166  WARN 3196 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m30s293ms).
+2021-08-07 16:56:54.430  WARN 3196 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m20s194ms).
+2021-08-07 16:57:08.782  INFO 3196 --- [http-nio-8080-exec-1] c.e.s.controller.StudentController       : Controller解决异常
+2021-08-07 16:57:09.404  INFO 3196 --- [http-nio-8080-exec-1] c.e.s.controller.StudentController       : Controller正常
+2021-08-07 16:58:14.495  INFO 3196 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-07 16:58:14.503  INFO 3196 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-07 16:58:21.322  INFO 3383 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3383 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 16:58:21.324  INFO 3383 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 16:58:21.378  INFO 3383 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-07 16:58:21.379  INFO 3383 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-07 16:58:22.804  INFO 3383 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 16:58:22.816  INFO 3383 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 16:58:22.816  INFO 3383 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 16:58:22.887  INFO 3383 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-07 16:58:22.887  INFO 3383 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1508 ms
+2021-08-07 16:58:23.788  INFO 3383 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 16:58:23.829  INFO 3383 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 16:58:23.840  INFO 3383 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 3.505 seconds (JVM running for 4.374)
+2021-08-07 16:59:17.192  INFO 3383 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 16:59:17.192  INFO 3383 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-07 16:59:17.194  INFO 3383 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-07 16:59:17.248  INFO 3383 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-07 16:59:17.469  INFO 3383 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-07 16:59:17.553  INFO 3383 --- [http-nio-8080-exec-2] c.e.s.service.impl.StudentServiceImpl    : B
+2021-08-07 16:59:17.553  INFO 3383 --- [http-nio-8080-exec-2] c.e.s.service.impl.StudentServiceImpl    : A
+2021-08-07 16:59:17.560  INFO 3383 --- [http-nio-8080-exec-2] c.e.s.controller.StudentController       : Controller解决异常
+2021-08-07 16:59:17.560  INFO 3383 --- [http-nio-8080-exec-2] c.e.s.controller.StudentController       : Controller正常
+2021-08-07 16:59:35.338  INFO 3383 --- [http-nio-8080-exec-3] c.e.s.service.impl.StudentServiceImpl    : B
+2021-08-07 16:59:35.339  INFO 3383 --- [http-nio-8080-exec-3] c.e.s.service.impl.StudentServiceImpl    : A
+2021-08-07 16:59:35.344  INFO 3383 --- [http-nio-8080-exec-3] c.e.s.controller.StudentController       : Controller解决异常
+2021-08-07 16:59:35.344  INFO 3383 --- [http-nio-8080-exec-3] c.e.s.controller.StudentController       : Controller正常
+2021-08-07 16:59:39.322  INFO 3383 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-07 16:59:39.329  INFO 3383 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-07 16:59:46.469  INFO 3393 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3393 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 16:59:46.474  INFO 3393 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 16:59:46.570  INFO 3393 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-07 16:59:46.570  INFO 3393 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-07 16:59:47.423  INFO 3393 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 16:59:47.431  INFO 3393 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 16:59:47.432  INFO 3393 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 16:59:47.476  INFO 3393 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-07 16:59:47.477  INFO 3393 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 906 ms
+2021-08-07 16:59:48.515  INFO 3393 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 16:59:48.600  INFO 3393 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 16:59:48.613  INFO 3393 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 2.627 seconds (JVM running for 3.3)
+2021-08-07 17:00:02.291  INFO 3393 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 17:00:02.291  INFO 3393 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-07 17:00:02.292  INFO 3393 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-07 17:00:33.106  INFO 3393 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-07 17:00:33.690  INFO 3393 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-07 17:01:13.070  INFO 3393 --- [http-nio-8080-exec-1] c.e.s.service.impl.StudentServiceImpl    : B
+2021-08-07 17:01:17.614  INFO 3393 --- [http-nio-8080-exec-1] c.e.s.service.impl.StudentServiceImpl    : A
+2021-08-07 17:03:00.719  WARN 3393 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s726ms).
+2021-08-07 17:03:35.734  INFO 3393 --- [http-nio-8080-exec-1] c.e.s.controller.StudentController       : Controller解决异常
+2021-08-07 17:03:35.735  INFO 3393 --- [http-nio-8080-exec-1] c.e.s.controller.StudentController       : Controller正常
+2021-08-07 17:05:56.651  INFO 3393 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-07 17:05:56.660  INFO 3393 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-07 17:06:02.940  INFO 3450 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3450 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 17:06:02.942  INFO 3450 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 17:06:02.996  INFO 3450 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-07 17:06:02.997  INFO 3450 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-07 17:06:03.875  INFO 3450 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 17:06:03.881  INFO 3450 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 17:06:03.881  INFO 3450 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 17:06:03.925  INFO 3450 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-07 17:06:03.925  INFO 3450 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 928 ms
+2021-08-07 17:06:04.549  INFO 3450 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 17:06:04.587  INFO 3450 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 17:06:04.597  INFO 3450 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 2.009 seconds (JVM running for 2.697)
+2021-08-07 17:06:23.179  INFO 3450 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 17:06:23.179  INFO 3450 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-07 17:06:23.180  INFO 3450 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-07 17:06:31.278  INFO 3450 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-07 17:06:31.402  INFO 3450 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-07 17:06:51.419  WARN 3450 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s17ms).
+2021-08-07 17:07:03.888  INFO 3450 --- [http-nio-8080-exec-2] c.e.s.controller.StudentController       : Controller解决异常
+2021-08-07 17:07:03.888  INFO 3450 --- [http-nio-8080-exec-2] c.e.s.controller.StudentController       : Controller正常
+2021-08-07 17:13:09.878  INFO 3450 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-07 17:13:09.893  INFO 3450 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-07 17:13:16.218  INFO 3524 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3524 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 17:13:16.220  INFO 3524 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 17:13:16.312  INFO 3524 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-07 17:13:16.312  INFO 3524 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-07 17:13:17.642  INFO 3524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 17:13:17.648  INFO 3524 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 17:13:17.648  INFO 3524 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 17:13:17.694  INFO 3524 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-07 17:13:17.694  INFO 3524 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1381 ms
+2021-08-07 17:13:18.383  INFO 3524 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 17:13:18.425  INFO 3524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 17:13:18.447  INFO 3524 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 2.66 seconds (JVM running for 3.497)
+2021-08-07 17:13:25.823  INFO 3524 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 17:13:25.823  INFO 3524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-07 17:13:25.824  INFO 3524 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-07 17:13:47.908  INFO 3524 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-07 17:13:48.051  INFO 3524 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-07 17:14:26.722  INFO 3524 --- [http-nio-8080-exec-1] c.e.s.service.impl.TeacherServiceImpl    : teacher - B
+2021-08-07 17:14:26.726  INFO 3524 --- [http-nio-8080-exec-1] c.e.s.service.impl.StudentServiceImpl    : A
+2021-08-07 17:14:29.265  INFO 3524 --- [http-nio-8080-exec-1] c.e.s.controller.StudentController       : Controller解决异常
+2021-08-07 17:14:29.265  INFO 3524 --- [http-nio-8080-exec-1] c.e.s.controller.StudentController       : Controller正常
+2021-08-07 17:15:44.722  INFO 3524 --- [http-nio-8080-exec-3] c.e.s.service.impl.TeacherServiceImpl    : teacher - B
+2021-08-07 17:15:44.724  INFO 3524 --- [http-nio-8080-exec-3] c.e.s.service.impl.StudentServiceImpl    : A
+2021-08-07 17:16:05.197  INFO 3524 --- [http-nio-8080-exec-3] c.e.s.controller.StudentController       : Controller解决异常
+2021-08-07 17:16:05.197  INFO 3524 --- [http-nio-8080-exec-3] c.e.s.controller.StudentController       : Controller正常
+2021-08-07 17:16:29.629  INFO 3524 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-07 17:16:29.635  INFO 3524 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-07 17:16:35.412  INFO 3538 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3538 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 17:16:35.414  INFO 3538 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 17:16:35.464  INFO 3538 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-07 17:16:35.464  INFO 3538 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-07 17:16:36.269  INFO 3538 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 17:16:36.275  INFO 3538 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 17:16:36.275  INFO 3538 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 17:16:36.315  INFO 3538 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-07 17:16:36.315  INFO 3538 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 851 ms
+2021-08-07 17:16:36.887  INFO 3538 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 17:16:36.931  INFO 3538 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 17:16:36.944  INFO 3538 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 1.855 seconds (JVM running for 2.449)
+2021-08-07 17:19:22.080  INFO 3538 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 17:19:22.080  INFO 3538 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-07 17:19:22.082  INFO 3538 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-08-07 17:19:26.353  INFO 3538 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-07 17:19:26.507  INFO 3538 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-07 17:19:50.539  INFO 3538 --- [http-nio-8080-exec-1] c.e.s.service.impl.StudentServiceImpl    : B
+2021-08-07 17:19:53.643  INFO 3538 --- [http-nio-8080-exec-1] c.e.s.service.impl.StudentServiceImpl    : A
+2021-08-07 17:20:07.027  INFO 3538 --- [http-nio-8080-exec-1] c.e.s.controller.StudentController       : Controller解决异常
+2021-08-07 17:20:07.028  INFO 3538 --- [http-nio-8080-exec-1] c.e.s.controller.StudentController       : Controller正常
+2021-08-07 17:27:14.140  INFO 3538 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-07 17:27:14.147  INFO 3538 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-07 17:27:14.349  INFO 3538 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3538 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 17:27:14.349  INFO 3538 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 17:27:14.544  INFO 3538 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 17:27:14.545  INFO 3538 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 17:27:14.545  INFO 3538 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 17:27:14.559  INFO 3538 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-07 17:27:14.559  INFO 3538 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 208 ms
+2021-08-07 17:27:14.608  WARN 3538 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'studentController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.springboottest.service.StudentService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2021-08-07 17:27:14.608  INFO 3538 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-08-07 17:27:14.614  INFO 3538 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-07 17:27:14.634 ERROR 3538 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.example.springboottest.service.StudentService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.springboottest.service.StudentService' in your configuration.
+
+2021-08-07 17:28:59.888  INFO 3538 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3538 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 17:28:59.888  INFO 3538 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 17:29:00.233  INFO 3538 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 17:29:00.234  INFO 3538 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 17:29:00.234  INFO 3538 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 17:29:00.243  INFO 3538 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-08-07 17:29:00.244  INFO 3538 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 353 ms
+2021-08-07 17:29:00.417  INFO 3538 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 17:29:00.425  INFO 3538 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 17:29:00.429  INFO 3538 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 0.571 seconds (JVM running for 745.919)
+2021-08-07 17:29:00.430  INFO 3538 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-07 17:29:11.009  INFO 3662 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3662 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 17:29:11.013  INFO 3662 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 17:29:11.062  INFO 3662 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-07 17:29:11.062  INFO 3662 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-07 17:29:12.172  INFO 3662 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 17:29:12.178  INFO 3662 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 17:29:12.178  INFO 3662 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 17:29:12.222  INFO 3662 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-07 17:29:12.223  INFO 3662 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1160 ms
+2021-08-07 17:29:12.857  INFO 3662 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 17:29:12.896  INFO 3662 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 17:29:12.906  INFO 3662 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 2.793 seconds (JVM running for 4.644)
+2021-08-07 17:29:25.122  INFO 3662 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 17:29:25.124  INFO 3662 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-07 17:29:25.125  INFO 3662 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-07 17:29:34.761  INFO 3662 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-07 17:29:34.880  INFO 3662 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-07 17:29:51.782  INFO 3662 --- [http-nio-8080-exec-2] c.e.s.service.impl.StudentServiceImpl    : B
+2021-08-07 17:29:51.786  INFO 3662 --- [http-nio-8080-exec-2] c.e.s.service.impl.StudentServiceImpl    : A
+2021-08-07 17:29:59.108  INFO 3662 --- [http-nio-8080-exec-2] c.e.s.controller.StudentController       : Controller解决异常
+2021-08-07 17:29:59.108  INFO 3662 --- [http-nio-8080-exec-2] c.e.s.controller.StudentController       : Controller正常
+2021-08-07 17:30:32.649  INFO 3662 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-07 17:30:32.656  INFO 3662 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-07 17:30:38.493  INFO 3679 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3679 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 17:30:38.495  INFO 3679 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 17:30:38.551  INFO 3679 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-07 17:30:38.552  INFO 3679 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-07 17:30:39.328  INFO 3679 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 17:30:39.334  INFO 3679 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 17:30:39.334  INFO 3679 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 17:30:39.380  INFO 3679 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-07 17:30:39.380  INFO 3679 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 827 ms
+2021-08-07 17:30:39.962  INFO 3679 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 17:30:40.006  INFO 3679 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 17:30:40.015  INFO 3679 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 1.886 seconds (JVM running for 2.481)
+2021-08-07 17:30:53.301  INFO 3679 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 17:30:53.302  INFO 3679 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-07 17:30:53.303  INFO 3679 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-07 17:30:55.427  INFO 3679 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-07 17:30:55.663  INFO 3679 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-07 17:31:01.361  INFO 3679 --- [http-nio-8080-exec-1] c.e.s.service.impl.StudentServiceImpl    : B
+2021-08-07 17:31:01.362  INFO 3679 --- [http-nio-8080-exec-1] c.e.s.service.impl.StudentServiceImpl    : A
+2021-08-07 17:31:55.355  WARN 3679 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57s942ms).
+2021-08-07 17:31:59.018  INFO 3679 --- [http-nio-8080-exec-1] c.e.s.controller.StudentController       : Controller解决异常
+2021-08-07 17:31:59.018  INFO 3679 --- [http-nio-8080-exec-1] c.e.s.controller.StudentController       : Controller正常
+2021-08-07 17:32:35.235  INFO 3679 --- [http-nio-8080-exec-3] c.e.s.service.impl.StudentServiceImpl    : B
+2021-08-07 17:32:35.236  INFO 3679 --- [http-nio-8080-exec-3] c.e.s.service.impl.StudentServiceImpl    : A
+2021-08-07 17:32:38.772  INFO 3679 --- [http-nio-8080-exec-3] c.e.s.controller.StudentController       : Controller解决异常
+2021-08-07 17:32:38.772  INFO 3679 --- [http-nio-8080-exec-3] c.e.s.controller.StudentController       : Controller正常
+2021-08-07 17:32:58.767  INFO 3679 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-07 17:32:58.773  INFO 3679 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-07 17:33:04.586  INFO 3693 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3693 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 17:33:04.587  INFO 3693 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 17:33:04.633  INFO 3693 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-07 17:33:04.634  INFO 3693 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-07 17:33:05.439  INFO 3693 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 17:33:05.445  INFO 3693 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 17:33:05.446  INFO 3693 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 17:33:05.489  INFO 3693 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-07 17:33:05.489  INFO 3693 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 855 ms
+2021-08-07 17:33:06.076  INFO 3693 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 17:33:06.114  INFO 3693 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 17:33:06.124  INFO 3693 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 1.856 seconds (JVM running for 2.486)
+2021-08-07 17:33:25.869  INFO 3693 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 17:33:25.869  INFO 3693 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-07 17:33:25.871  INFO 3693 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-08-07 17:33:28.013  INFO 3693 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-07 17:33:28.168  INFO 3693 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-07 17:33:33.288  INFO 3693 --- [http-nio-8080-exec-1] c.e.s.service.impl.StudentServiceImpl    : B
+2021-08-07 17:33:33.288  INFO 3693 --- [http-nio-8080-exec-1] c.e.s.service.impl.StudentServiceImpl    : A
+2021-08-07 17:33:34.950  INFO 3693 --- [http-nio-8080-exec-1] c.e.s.controller.StudentController       : Controller解决异常
+2021-08-07 17:33:34.951  INFO 3693 --- [http-nio-8080-exec-1] c.e.s.controller.StudentController       : Controller正常
+2021-08-07 17:44:18.529  INFO 3693 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-07 17:44:18.541  INFO 3693 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-07 17:44:18.726  INFO 3693 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3693 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 17:44:18.726  INFO 3693 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 17:44:19.018  INFO 3693 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 17:44:19.019  INFO 3693 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 17:44:19.019  INFO 3693 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 17:44:19.029  INFO 3693 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-07 17:44:19.030  INFO 3693 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 301 ms
+2021-08-07 17:44:19.196  INFO 3693 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 17:44:19.205  INFO 3693 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 17:44:19.209  INFO 3693 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 0.521 seconds (JVM running for 675.55)
+2021-08-07 17:44:19.211  INFO 3693 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-07 17:44:20.746  INFO 3693 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3693 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 17:44:20.746  INFO 3693 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 17:44:20.902  INFO 3693 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 17:44:20.903  INFO 3693 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 17:44:20.903  INFO 3693 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 17:44:20.908  INFO 3693 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-07 17:44:20.909  INFO 3693 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 160 ms
+2021-08-07 17:44:21.019  INFO 3693 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 17:44:21.027  INFO 3693 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 17:44:21.029  INFO 3693 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 0.304 seconds (JVM running for 677.371)
+2021-08-07 17:44:21.030  INFO 3693 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-07 17:49:54.168  INFO 3693 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3693 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 17:49:54.168  INFO 3693 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 17:49:54.349  INFO 3693 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 17:49:54.350  INFO 3693 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 17:49:54.350  INFO 3693 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 17:49:54.355  INFO 3693 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-07 17:49:54.355  INFO 3693 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 184 ms
+2021-08-07 17:49:54.497  INFO 3693 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 17:49:54.509  INFO 3693 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 17:49:54.513  INFO 3693 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 0.377 seconds (JVM running for 1010.845)
+2021-08-07 17:49:54.515  INFO 3693 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-07 17:49:56.038  INFO 3693 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3693 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 17:49:56.038  INFO 3693 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 17:49:56.202  INFO 3693 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 17:49:56.203  INFO 3693 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 17:49:56.203  INFO 3693 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 17:49:56.209  INFO 3693 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-07 17:49:56.209  INFO 3693 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 169 ms
+2021-08-07 17:49:56.322  INFO 3693 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 17:49:56.329  INFO 3693 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 17:49:56.332  INFO 3693 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 0.314 seconds (JVM running for 1012.664)
+2021-08-07 17:49:56.333  INFO 3693 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-07 17:53:28.548  INFO 3693 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3693 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 17:53:28.549  INFO 3693 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 17:53:28.864  INFO 3693 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 17:53:28.864  INFO 3693 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 17:53:28.864  INFO 3693 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 17:53:28.871  INFO 3693 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-07 17:53:28.871  INFO 3693 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 318 ms
+2021-08-07 17:53:29.029  INFO 3693 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 17:53:29.051  INFO 3693 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 17:53:29.056  INFO 3693 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 0.551 seconds (JVM running for 1225.381)
+2021-08-07 17:53:29.058  INFO 3693 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-07 17:53:30.580  INFO 3693 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3693 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 17:53:30.580  INFO 3693 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 17:53:30.757  INFO 3693 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 17:53:30.758  INFO 3693 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 17:53:30.758  INFO 3693 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 17:53:30.765  INFO 3693 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-07 17:53:30.766  INFO 3693 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 184 ms
+2021-08-07 17:53:30.924  INFO 3693 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 17:53:30.931  INFO 3693 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 17:53:30.934  INFO 3693 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 0.374 seconds (JVM running for 1227.259)
+2021-08-07 17:53:30.935  INFO 3693 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-07 17:53:34.029  INFO 3846 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3846 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 17:53:34.031  INFO 3846 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 17:53:34.082  INFO 3846 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-07 17:53:34.082  INFO 3846 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-07 17:53:34.946  INFO 3846 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 17:53:34.953  INFO 3846 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 17:53:34.953  INFO 3846 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 17:53:34.997  INFO 3846 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-07 17:53:34.997  INFO 3846 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 914 ms
+2021-08-07 17:53:35.568  INFO 3846 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 17:53:35.615  INFO 3846 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 17:53:35.624  INFO 3846 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 2.007 seconds (JVM running for 2.711)
+2021-08-07 17:53:54.130  INFO 3846 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 17:53:54.131  INFO 3846 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-07 17:53:54.132  INFO 3846 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-07 17:54:07.311  INFO 3846 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-07 17:54:07.879  INFO 3846 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-07 17:55:07.202  INFO 3846 --- [http-nio-8080-exec-2] c.e.s.service.impl.StudentServiceImpl    : B
+2021-08-07 17:55:07.203  INFO 3846 --- [http-nio-8080-exec-2] c.e.s.service.impl.StudentServiceImpl    : A
+2021-08-07 17:55:11.054  INFO 3846 --- [http-nio-8080-exec-2] c.e.s.controller.StudentController       : Controller解决异常
+2021-08-07 17:55:11.054  INFO 3846 --- [http-nio-8080-exec-2] c.e.s.controller.StudentController       : Controller正常
+2021-08-07 17:56:29.415  INFO 3846 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-07 17:56:29.423  INFO 3846 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-07 17:56:35.237  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3873 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 17:56:35.239  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 17:56:35.290  INFO 3873 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-07 17:56:35.290  INFO 3873 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-07 17:56:36.087  INFO 3873 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 17:56:36.092  INFO 3873 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 17:56:36.093  INFO 3873 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 17:56:36.131  INFO 3873 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-07 17:56:36.131  INFO 3873 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 841 ms
+2021-08-07 17:56:36.695  INFO 3873 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 17:56:36.734  INFO 3873 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 17:56:36.753  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 1.834 seconds (JVM running for 2.429)
+2021-08-07 17:56:49.132  INFO 3873 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 17:56:49.132  INFO 3873 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-07 17:56:49.133  INFO 3873 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-07 18:11:03.614  INFO 3873 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-07 18:11:03.763  INFO 3873 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-07 18:11:07.385  INFO 3873 --- [http-nio-8080-exec-1] c.e.s.service.impl.StudentServiceImpl    : B
+2021-08-07 18:11:07.398  INFO 3873 --- [http-nio-8080-exec-1] c.e.s.service.impl.StudentServiceImpl    : A
+2021-08-07 18:11:13.452  INFO 3873 --- [http-nio-8080-exec-1] c.e.s.controller.StudentController       : Controller解决异常
+2021-08-07 18:11:13.453  INFO 3873 --- [http-nio-8080-exec-1] c.e.s.controller.StudentController       : Controller正常
+2021-08-07 18:12:06.075  INFO 3873 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-07 18:12:06.083  INFO 3873 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-07 18:12:06.258  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3873 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 18:12:06.258  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 18:12:06.483  INFO 3873 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 18:12:06.484  INFO 3873 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 18:12:06.484  INFO 3873 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 18:12:06.492  INFO 3873 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-07 18:12:06.492  INFO 3873 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 231 ms
+2021-08-07 18:12:06.635  INFO 3873 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 18:12:06.643  INFO 3873 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 18:12:06.646  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 0.431 seconds (JVM running for 932.294)
+2021-08-07 18:12:06.648  INFO 3873 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-07 18:27:54.623  INFO 3873 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 18:27:54.624  INFO 3873 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-07 18:27:54.625  INFO 3873 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-07 18:27:58.219  INFO 3873 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-08-07 18:27:58.231  INFO 3873 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-08-07 18:28:02.689  INFO 3873 --- [http-nio-8080-exec-1] c.e.s.controller.StudentController       : Controller解决异常
+2021-08-07 18:28:02.689  INFO 3873 --- [http-nio-8080-exec-1] c.e.s.controller.StudentController       : Controller正常
+2021-08-07 18:28:29.690  INFO 3873 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-08-07 18:28:29.694  INFO 3873 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2021-08-07 18:28:29.980  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3873 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 18:28:29.980  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 18:28:30.192  INFO 3873 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 18:28:30.192  INFO 3873 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 18:28:30.193  INFO 3873 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 18:28:30.200  INFO 3873 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-07 18:28:30.200  INFO 3873 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 218 ms
+2021-08-07 18:28:30.354  INFO 3873 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 18:28:30.362  INFO 3873 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 18:28:30.365  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 0.574 seconds (JVM running for 1915.983)
+2021-08-07 18:28:30.366  INFO 3873 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-07 18:28:31.911  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3873 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 18:28:31.911  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 18:28:32.061  INFO 3873 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 18:28:32.061  INFO 3873 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 18:28:32.061  INFO 3873 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 18:28:32.067  INFO 3873 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-07 18:28:32.067  INFO 3873 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 154 ms
+2021-08-07 18:28:32.265  INFO 3873 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 18:28:32.272  INFO 3873 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 18:28:32.275  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 0.384 seconds (JVM running for 1917.893)
+2021-08-07 18:28:32.276  INFO 3873 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-07 18:29:00.353  INFO 3873 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 18:29:00.354  INFO 3873 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-07 18:29:00.355  INFO 3873 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-07 18:29:03.406  INFO 3873 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2021-08-07 18:29:03.422  INFO 3873 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2021-08-07 18:29:23.465  INFO 3873 --- [http-nio-8080-exec-2] c.e.s.service.impl.StudentServiceImpl    : B
+2021-08-07 18:29:23.471  INFO 3873 --- [http-nio-8080-exec-2] c.e.s.service.impl.StudentServiceImpl    : A
+2021-08-07 18:29:29.055  INFO 3873 --- [http-nio-8080-exec-2] c.e.s.controller.StudentController       : Controller解决异常
+2021-08-07 18:29:29.056  INFO 3873 --- [http-nio-8080-exec-2] c.e.s.controller.StudentController       : Controller正常
+2021-08-07 18:34:34.053  INFO 3873 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2021-08-07 18:34:34.060  INFO 3873 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2021-08-07 18:34:34.261  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3873 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 18:34:34.261  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 18:34:34.603  INFO 3873 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 18:34:34.604  INFO 3873 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 18:34:34.605  INFO 3873 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 18:34:34.614  INFO 3873 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-07 18:34:34.614  INFO 3873 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 349 ms
+2021-08-07 18:34:34.727  WARN 3873 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'studentController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.springboottest.service.StudentService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2021-08-07 18:34:34.727  INFO 3873 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-08-07 18:34:34.738  INFO 3873 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-07 18:34:34.790 ERROR 3873 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.example.springboottest.service.StudentService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.springboottest.service.StudentService' in your configuration.
+
+2021-08-07 18:34:36.300  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3873 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 18:34:36.300  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 18:34:36.688  INFO 3873 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 18:34:36.689  INFO 3873 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 18:34:36.689  INFO 3873 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 18:34:36.696  INFO 3873 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-08-07 18:34:36.696  INFO 3873 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 387 ms
+2021-08-07 18:34:36.893  INFO 3873 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 18:34:36.900  INFO 3873 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 18:34:36.904  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 0.68 seconds (JVM running for 2282.511)
+2021-08-07 18:34:36.905  INFO 3873 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-07 18:34:45.850  INFO 3873 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 18:34:45.850  INFO 3873 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-07 18:34:45.851  INFO 3873 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-07 18:34:48.736  INFO 3873 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2021-08-07 18:34:48.748  INFO 3873 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2021-08-07 18:35:22.400  INFO 3873 --- [http-nio-8080-exec-2] c.e.s.controller.StudentController       : Controller解决异常
+2021-08-07 18:35:22.400  INFO 3873 --- [http-nio-8080-exec-2] c.e.s.controller.StudentController       : Controller正常
+2021-08-07 18:36:36.730  INFO 3873 --- [Thread-26] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2021-08-07 18:36:36.733  INFO 3873 --- [Thread-26] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2021-08-07 18:36:36.899  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3873 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 18:36:36.900  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 18:36:37.144  INFO 3873 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 18:36:37.145  INFO 3873 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 18:36:37.145  INFO 3873 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 18:36:37.152  INFO 3873 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-08-07 18:36:37.152  INFO 3873 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 249 ms
+2021-08-07 18:36:37.332  INFO 3873 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 18:36:37.340  INFO 3873 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 18:36:37.343  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 0.48 seconds (JVM running for 2402.972)
+2021-08-07 18:36:37.345  INFO 3873 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-07 18:36:38.854  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3873 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 18:36:38.854  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 18:36:39.019  INFO 3873 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 18:36:39.019  INFO 3873 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 18:36:39.020  INFO 3873 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 18:36:39.024  INFO 3873 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-08-07 18:36:39.024  INFO 3873 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 168 ms
+2021-08-07 18:36:39.157  INFO 3873 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 18:36:39.168  INFO 3873 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 18:36:39.172  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 0.338 seconds (JVM running for 2404.8)
+2021-08-07 18:36:39.174  INFO 3873 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-07 18:37:01.330  INFO 3873 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 18:37:01.331  INFO 3873 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-07 18:37:01.332  INFO 3873 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-07 18:37:03.729  INFO 3873 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2021-08-07 18:37:03.742  INFO 3873 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2021-08-07 18:37:12.988  INFO 3873 --- [http-nio-8080-exec-2] c.e.s.service.impl.StudentServiceImpl    : B
+2021-08-07 18:37:12.988  INFO 3873 --- [http-nio-8080-exec-2] c.e.s.service.impl.StudentServiceImpl    : A
+2021-08-07 18:37:15.593  INFO 3873 --- [http-nio-8080-exec-2] c.e.s.controller.StudentController       : Controller解决异常
+2021-08-07 18:37:15.593  INFO 3873 --- [http-nio-8080-exec-2] c.e.s.controller.StudentController       : Controller正常
+2021-08-07 18:38:08.766  INFO 3873 --- [Thread-37] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2021-08-07 18:38:08.770  INFO 3873 --- [Thread-37] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2021-08-07 18:38:08.938  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3873 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 18:38:08.938  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 18:38:09.235  INFO 3873 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 18:38:09.236  INFO 3873 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 18:38:09.236  INFO 3873 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 18:38:09.241  INFO 3873 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-08-07 18:38:09.241  INFO 3873 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 300 ms
+2021-08-07 18:38:09.354  INFO 3873 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 18:38:09.361  INFO 3873 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 18:38:09.365  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 0.459 seconds (JVM running for 2494.991)
+2021-08-07 18:38:09.365  INFO 3873 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-07 18:38:10.874  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3873 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 18:38:10.874  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 18:38:11.022  INFO 3873 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 18:38:11.022  INFO 3873 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 18:38:11.022  INFO 3873 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 18:38:11.027  INFO 3873 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-08-07 18:38:11.027  INFO 3873 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 151 ms
+2021-08-07 18:38:11.169  INFO 3873 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 18:38:11.184  INFO 3873 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 18:38:11.190  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 0.334 seconds (JVM running for 2496.816)
+2021-08-07 18:38:11.194  INFO 3873 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-07 18:38:23.407  INFO 3873 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 18:38:23.407  INFO 3873 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-07 18:38:23.408  INFO 3873 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-07 18:38:27.397  INFO 3873 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2021-08-07 18:38:27.411  INFO 3873 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2021-08-07 18:38:34.754  INFO 3873 --- [http-nio-8080-exec-2] c.e.s.service.impl.StudentServiceImpl    : B
+2021-08-07 18:38:34.760  INFO 3873 --- [http-nio-8080-exec-2] c.e.s.service.impl.StudentServiceImpl    : A
+2021-08-07 18:38:39.605  INFO 3873 --- [http-nio-8080-exec-2] c.e.s.controller.StudentController       : Controller解决异常
+2021-08-07 18:38:39.606  INFO 3873 --- [http-nio-8080-exec-2] c.e.s.controller.StudentController       : Controller正常
+2021-08-07 18:41:20.726  INFO 3873 --- [Thread-45] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2021-08-07 18:41:20.730  INFO 3873 --- [Thread-45] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2021-08-07 18:41:20.861  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3873 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 18:41:20.861  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 18:41:21.125  INFO 3873 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 18:41:21.125  INFO 3873 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 18:41:21.125  INFO 3873 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 18:41:21.135  INFO 3873 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-08-07 18:41:21.135  INFO 3873 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 269 ms
+2021-08-07 18:41:21.330  INFO 3873 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 18:41:21.338  INFO 3873 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 18:41:21.341  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 0.521 seconds (JVM running for 2686.961)
+2021-08-07 18:41:21.342  INFO 3873 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-07 18:41:22.832  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3873 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 18:41:22.832  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 18:41:23.004  INFO 3873 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 18:41:23.005  INFO 3873 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 18:41:23.005  INFO 3873 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 18:41:23.010  INFO 3873 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-08-07 18:41:23.010  INFO 3873 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 176 ms
+2021-08-07 18:41:23.144  INFO 3873 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 18:41:23.153  INFO 3873 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 18:41:23.156  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 0.341 seconds (JVM running for 2688.776)
+2021-08-07 18:41:23.157  INFO 3873 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-07 18:41:51.409  INFO 3873 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 18:41:51.410  INFO 3873 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-07 18:41:51.411  INFO 3873 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-07 18:41:54.159  INFO 3873 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2021-08-07 18:41:54.172  INFO 3873 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2021-08-07 18:42:05.084  INFO 3873 --- [http-nio-8080-exec-2] c.e.s.service.impl.StudentServiceImpl    : B
+2021-08-07 18:42:05.091  INFO 3873 --- [http-nio-8080-exec-2] c.e.s.service.impl.StudentServiceImpl    : A
+2021-08-07 18:42:12.147  INFO 3873 --- [http-nio-8080-exec-2] c.e.s.controller.StudentController       : Controller解决异常
+2021-08-07 18:42:12.147  INFO 3873 --- [http-nio-8080-exec-2] c.e.s.controller.StudentController       : Controller正常
+2021-08-07 18:42:31.125  INFO 3873 --- [Thread-53] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2021-08-07 18:42:31.128  INFO 3873 --- [Thread-53] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2021-08-07 18:42:31.224  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3873 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 18:42:31.224  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 18:42:31.402  INFO 3873 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 18:42:31.402  INFO 3873 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 18:42:31.403  INFO 3873 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 18:42:31.409  INFO 3873 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-08-07 18:42:31.409  INFO 3873 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 183 ms
+2021-08-07 18:42:31.600  INFO 3873 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 18:42:31.610  INFO 3873 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 18:42:31.614  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 0.414 seconds (JVM running for 2757.232)
+2021-08-07 18:42:31.616  INFO 3873 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-07 18:42:33.093  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 3873 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 18:42:33.093  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 18:42:33.253  INFO 3873 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 18:42:33.254  INFO 3873 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 18:42:33.254  INFO 3873 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 18:42:33.260  INFO 3873 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-08-07 18:42:33.260  INFO 3873 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 165 ms
+2021-08-07 18:42:33.424  INFO 3873 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 18:42:33.439  INFO 3873 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 18:42:33.443  INFO 3873 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 0.368 seconds (JVM running for 2759.061)
+2021-08-07 18:42:33.445  INFO 3873 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-07 18:43:32.896  INFO 3873 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 18:43:32.898  INFO 3873 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-07 18:43:32.899  INFO 3873 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-07 18:43:36.003  INFO 3873 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2021-08-07 18:43:36.018  INFO 3873 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2021-08-07 18:43:42.843  INFO 3873 --- [http-nio-8080-exec-2] c.e.s.controller.StudentController       : Controller解决异常
+2021-08-07 18:43:42.843  INFO 3873 --- [http-nio-8080-exec-2] c.e.s.controller.StudentController       : Controller正常
+2021-08-07 18:44:02.695  INFO 3873 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2021-08-07 18:44:02.698  INFO 3873 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2021-08-07 18:44:08.769  INFO 4183 --- [restartedMain] c.e.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 1.8.0_261 on ashiamddeMBP with PID 4183 (/Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest/target/classes started by ashiamd in /Users/ashiamd/mydocs/docs/study/ITstudy/documents/Java/SpringBootTest)
+2021-08-07 18:44:08.772  INFO 4183 --- [restartedMain] c.e.s.SpringBootTestApplication          : No active profile set, falling back to default profiles: default
+2021-08-07 18:44:08.821  INFO 4183 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-07 18:44:08.821  INFO 4183 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-07 18:44:09.757  INFO 4183 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-07 18:44:09.771  INFO 4183 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-07 18:44:09.772  INFO 4183 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-07 18:44:09.816  INFO 4183 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-07 18:44:09.816  INFO 4183 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 995 ms
+2021-08-07 18:44:10.425  INFO 4183 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-07 18:44:10.468  INFO 4183 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-07 18:44:10.478  INFO 4183 --- [restartedMain] c.e.s.SpringBootTestApplication          : Started SpringBootTestApplication in 2.178 seconds (JVM running for 2.854)
+2021-08-07 18:44:24.051  INFO 4183 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07 18:44:24.052  INFO 4183 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-07 18:44:24.053  INFO 4183 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-07 18:44:27.399  INFO 4183 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-07 18:44:27.538  INFO 4183 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-07 18:44:40.196  INFO 4183 --- [http-nio-8080-exec-2] c.e.s.service.impl.StudentServiceImpl    : B
+2021-08-07 18:44:40.206  INFO 4183 --- [http-nio-8080-exec-2] c.e.s.service.impl.StudentServiceImpl    : A
+2021-08-07 18:44:44.968  INFO 4183 --- [http-nio-8080-exec-2] c.e.s.controller.StudentController       : Controller解决异常
+2021-08-07 18:44:44.969  INFO 4183 --- [http-nio-8080-exec-2] c.e.s.controller.StudentController       : Controller正常
