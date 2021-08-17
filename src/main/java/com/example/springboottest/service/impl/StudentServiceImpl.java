@@ -41,6 +41,9 @@ public class StudentServiceImpl implements StudentService {
     @Resource
     private TeacherService teacherService;
 
+    @Resource
+    private StudentService studentService;
+
     @Override
     public Student insert(Student student) {
         this.studentDao.insert(student);
@@ -51,24 +54,25 @@ public class StudentServiceImpl implements StudentService {
     @Override
     public void A(Integer id) throws Exception {
         insert(new Student(0, id, id));
+        ((StudentServiceImpl) AopContext.currentProxy()).B(id);
 //        transactionTemplate.setPropagationBehavior(TransactionDefinition.PROPAGATION_NEVER);
-        transactionTemplate.execute(new TransactionCallback<Object>() {
-            @SneakyThrows
-            @Override
-            public Object doInTransaction(TransactionStatus status) {
-//                B(id);
-                ((StudentServiceImpl)AopContext.currentProxy()).B(id);
-                return null;
-            }
-        });
+//        transactionTemplate.execute(new TransactionCallback<Object>() {
+//            @SneakyThrows
+//            @Override
+//            public Object doInTransaction(TransactionStatus status) {
+////                B(id);
+//                ((StudentServiceImpl)AopContext.currentProxy()).B(id);
+//                return null;
+//            }
+//        });
 //        ((StudentServiceImpl)AopContext.currentProxy()).B(id);
-//        this.B(id);
+        studentService.insert(new Student(0, id, id));
 //        teacherService.B(id);
         log.info("A");
         int a = 1 / 0;
     }
 
-    @Transactional(rollbackFor = Throwable.class, propagation = Propagation.REQUIRED)
+    @Transactional(rollbackFor = Throwable.class, propagation = Propagation.NEVER)
     public void B(Integer id) throws Exception {
         insert(new Student(0, id + 1, id - 1));
 //        int a = 1/0;
